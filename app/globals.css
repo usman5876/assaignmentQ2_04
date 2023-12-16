@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+div{
+  font-family:"Times New Roman", Times, serif;
+  margin-top: 10px;
+  margin-left: 50px;
+}

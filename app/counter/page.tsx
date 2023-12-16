@@ -1,5 +1,4 @@
 "use client"
-import Image from 'next/image'
 import { useState } from "react"
 
 
@@ -16,7 +15,7 @@ export default function Counter(){
     
     return(
         
-        <div style={{alignItems:'center', marginTop:5}}>
+        <div>
             <span>{name[nameIndex]}</span>
             <div>
             <button onClick={prevName} style={{backgroundColor:"blue"}}>Prev</button>
@@ -25,4 +24,3 @@ export default function Counter(){
         </div>
     )
 }
-
